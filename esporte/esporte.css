@@ -20,13 +20,3 @@ img {
 body {
     background-color: yellow;
 }
-
-#links {
-    list-style: none;
-    font-size: 18pt;
-    color: rgb(245, 245, 245);
-}
-
-.FormaPagamentos {
-    color: blue;
-}
