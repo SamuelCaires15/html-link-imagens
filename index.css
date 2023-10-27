@@ -4,29 +4,70 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(190, 190, 20);
+}
+
 header {
     width: 100vw;
-    height: 70px;
-    display: grid;
-    place-items: center; 
-    background-color: rgba(157, 0, 0, 1);
+    background-color: rgb(32, 61, 228);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-img {
-    max-width: 300px;
-    max-height: 300px;
+h1 {
+    color: whitesmoke;
+    margin-left: 20px;
 }
 
-body {
-    background-color: yellow;
+h3 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 23px;
+}
+
+a {
+    color: whitesmoke;
+}
+
+
+.logo {
+    border-radius: 100px;
+    width: 60px;
+    height: 60px;
+    background-image: url('/imgs/Logo.png');
+    background-position: center center;
+} 
+
+.containerLogo {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.FormaPagamentos {
+    align-items: center;
 }
 
 #links {
-    list-style: none;
     font-size: 18pt;
     color: rgb(245, 245, 245);
+    align-items: center;
 }
 
 .FormaPagamentos {
-    color: blue;
+    color: rgb(253, 253, 255);
+}
+
+.containerEsportes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#basqueteImg, #f1Img, #futImg {
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
 }
