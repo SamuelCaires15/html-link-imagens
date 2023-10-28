@@ -20,3 +20,13 @@ img {
 body {
     background-color: yellow;
 }
+
+.containerProdutos {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+
+#imgProduto {
+    border-radius: 30px;
+}
